@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+.page{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2{
+    padding-left: 10px;
+    color: #0974b3;
+}
+
+h4{
+    padding-left: 10px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+.content1 {
+  width: 100%;
+  float: right;
+  background: #B2D6FF;
+  border-top: 5px solid #0974b3;
+  background-color: white;    
+  padding: 20px;
+  height: 350px;
+  overflow-y: auto;
+}
+
+.content1 img{
+    width: 20%;
+    float: left;  
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.content1 p{
+    margin-right: 20px;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+.content2 {
+  width: 48%;
+  float: left;
+  padding: 20px;
+  border-top: 5px solid #0974b3;
+  background-color: white;    
+  margin-top: 30px;
+  height: 490px;
+  overflow-y: auto;
+}
+
+.content2 img{
+    width: 43%;
+    float: left;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.content2 p{
+    margin-right: 20px;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+.content3 {
+  width: 48%;
+  float: right;
+  border-top: 5px solid #0974b3;
+  background-color: white;    
+  padding: 20px;
+  margin-top: 30px;
+  height: 490px;
+  overflow-y: auto;
+}
+
+.content3 img{
+    width: 40%;
+    float: left;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.content3 p{
+    margin-right: 20px;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+
